@@ -4,6 +4,7 @@ Automatically generates certificate image based on attendee names provided (read
 
 ![alt text](https://github.com/prtdomingo/certificate-of-attendance-auto-generator/blob/master/example/johndoe.png "John Doe")    
 
+*Certificate Image Template created by: https://github.com/mindofai*
 
 ## Create Conda Environment
 ```
