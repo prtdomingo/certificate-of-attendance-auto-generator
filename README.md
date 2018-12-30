@@ -3,8 +3,8 @@
 Automatically generates certificate image based on attendee names provided (reads from CSV file), and contains script that will automatically send the generated certificate to intended recipients using Outlook Application.
 
 ## Script Settings
-<hr>
-Make sure that you update the script settings from [main.py][1] based on your needs:
+
+Make sure that you update the script settings from [main.py](https://github.com/prtdomingo/certificate-of-attendance-auto-generator/blob/master/main.py) based on your needs:
 
 ```python
 # Script Settings
@@ -18,4 +18,3 @@ fontColor = (0,0,0) # Black
 lineType = 2
 ```
 
-[1]: https://github.com/prtdomingo/certificate-of-attendance-auto-generator/blob/master/main.py
