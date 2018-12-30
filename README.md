@@ -2,6 +2,9 @@
 
 Automatically generates certificate image based on attendee names provided (reads from CSV file), and contains script that will automatically send the generated certificate to intended recipients using Outlook Application.
 
+![alt text](https://github.com/prtdomingo/certificate-of-attendance-auto-generator/blob/master/example/johndoe.png "John Doe")    
+
+
 ## Create Conda Environment
 ```
 $ conda env create -n image_autogen -f environment.yml
