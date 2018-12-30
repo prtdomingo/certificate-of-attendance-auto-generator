@@ -17,8 +17,7 @@ lineType        = 2
 emailSubject = "INSERT EVENT NAME"
 
 def generate_email_body(name):
-    return ("***This email and attachment is automatically generated using a script."
-            "<br><br>"
+    return ("***This email and attachment is automatically generated using a script. *** <br><br>"
             "Hi " + name + ", <br><br>"
             "INSERT YOUR EMAIL BODY HERE"
            )
