@@ -12,6 +12,7 @@ font            = cv2.FONT_HERSHEY_SIMPLEX
 fontScale       = 2
 fontColor       = (0,0,0) # Black
 lineType        = 2
+certificate_folder = "certificate"
 
 # Email Details
 emailSubject = "INSERT EVENT NAME"
@@ -57,7 +58,6 @@ def send_certificate():
 
 if __name__ == "__main__":
 
-    if not os.path.exists("certificate"):
-        os.mkdir("certificate")
+    os.makedirs("certificate", exist_ok=True)
 
     send_certificate()
